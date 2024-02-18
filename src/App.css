@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: rgb(22, 22, 68);
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navbar .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  flex-direction: column;
+}
+.table-container table {
+  width: 80%;
+  padding: 1rem;
+}
+.table-container table thead {
+  background-color: grey;
+  color: white;
+  text-transform: uppercase;
+}
+.table-container table thead th {
+  padding: 0.5rem;
+}
+.table-container table tbody {
+  background-color: rgb(196, 194, 194);
+  text-align: center;
+}
+
+
+.active {
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.6rem;
+  border-radius: 5px;
+}
+.off {
+  background-color: rgb(28, 34, 28);
+  color: white;
+  text-transform: uppercase;
+  padding: 0.6rem;
+  border-radius: 5px;
+}
+
